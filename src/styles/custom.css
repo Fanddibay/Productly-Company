@@ -27,6 +27,11 @@
   color: #e69a37;
 }
 
+.herobox {
+  margin-top: 8rem !important;
+  margin-bottom: 18rem;
+}
+
 .herobox h1 {
   font-weight: bold;
 }
@@ -41,6 +46,11 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 425px) {
+  .herobox {
+    margin-top: 38px !important;
+    margin-bottom: 0;
+  }
+
   .btn-warning {
     margin-top: 20px;
     margin-left: 0 !important;
