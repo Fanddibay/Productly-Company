@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.mt-6 {
+  margin-top: 110px;
+}
+
+.bg-custom {
+  margin-top: 46px;
+  background: linear-gradient(
+    179.61deg,
+    rgba(255, 244, 229, 0.0001) 00.37%,
+    rgba(255, 229, 210, 0.629261) 99.67%
+  );
+  transform: rotate(360deg);
+  padding: 50px;
+}
+
+.bg-custom img {
+  width: 51px;
+  height: 50px;
+}
+
+.bg-custom h3 {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.bg-custom p {
+  margin-top: 13px;
+  font-size: 16px;
+}
+
+.bg-custom a {
+  margin-top: 34px;
+  margin-bottom: 20px;
+  padding: 15px 32px 14px 34px;
+  background-color: #ff9900;
+}
+
+.servicesInfo {
+  margin-top: 120px;
+}
+
+.servicesInfo img {
+  width: 520px;
+  height: 574px;
+}
+
+.servicesInfo h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.servicesInfo h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.servicesInfo p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.servicesInfo p:nth-child(3) {
+  margin-top: 22px;
+  margin-bottom: 30px;
+}
+
+.servicesInfo p:nth-child(5) {
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+.servicesInfo p:nth-child(7) {
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+.servicesInfo p:nth-child(9) {
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+.product-manager {
+  margin-top: 101px;
+}
+
+.checkManager {
+  margin-top: 38px;
+}
+
+.checkManager img {
+  width: 35px;
+  height: 35px;
+}
+
+.marketers {
+  margin-top: 104px;
+}
+
+.marketers img {
+  width: 542px;
+  height: 609px;
+}
+
+.marketers h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.marketers h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.marketers p {
+  font-size: 16px;
+  font-weight: medium;
+}
+
+.connectionHero {
+  margin-top: 157px;
+}
+
+.bgConnection {
+  background: linear-gradient(
+    179.61deg,
+    rgba(255, 229, 210, 0.629261) 0.33%,
+    rgba(255, 244, 229, 0.0001) 99.67%
+  );
+
+  border-radius: 50% 50% 0 0;
+  padding: 4rem;
+}
+
+.connectionHero imgL:nth-child(1) {
+  width: 98px;
+  height: 98px;
+}
+
+.connectionHero a {
+  padding: 15px 31px 14px 30px;
+}
+
+.connectionHero h2 {
+  font-size: 36px;
+}
+
+.connectionHero p {
+  font-size: 16px;
+  margin-top: 22px;
+  margin-bottom: 45px;
+}
+
+.avator-row {
+  margin-top: 181px;
+}
+
+.bg-avator {
+  background-color: #fff;
+  border-radius: 26.5px;
+  box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+  width: 274px;
+  height: 53px;
+  margin-left: 10px;
+}
+
+.bg-avator:nth-child(1) {
+  margin-right: 10px;
+}
+
+.bg-avator p {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.mt-avator {
+  margin-top: 17px;
+}
+
+.mt-avator .col:nth-child(2) {
+  margin-top: 97px;
+}
+
+.marketingInfo {
+  margin-top: 60px;
+}
+
+.info-marketings {
+  margin-top: 55px;
+}
+
+.info-marketings img {
+  width: 348px;
+  height: 185px;
+}
+
+.info-marketings h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #2f281e;
+}
+
+.info-marketings .orange-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #ff9900;
+}
+
+.caraosolt {
+  margin-top: 45px;
+  margin-bottom: 120px;
+}
+
+.caraosolt img {
+  width: 68px;
+  height: 16px;
+}
+
+.info-marketings figure {
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+hr {
+  margin-bottom: 120px !important;
+}
+
+.footer {
+  padding-bottom: 95px;
+}
+
+.footer img {
+  width: 185px;
+  height: 32px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #2f281e;
+  margin-left: -30px;
+  font-weight: 400;
+}
+
+.footer ul li {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+  padding-top: 10px !important;
+}
+
+.footer h5 {
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.footer input[type="email"] {
+  width: 325px;
+  height: 48px;
+  border-color: #bcd0e5;
+}
+
+.footer input[type="email"] {
+  width: 325px;
+  height: 48px;
+  border-color: #bcd0e5;
+  padding: 15px 20px;
+  margin-bottom: 31px;
+}
+
+.footer button {
+  padding: 7px 15px 8px 15px;
+  color: #fff;
+  width: 171px;
+  height: 39px;
+  font-weight: 700;
+}
