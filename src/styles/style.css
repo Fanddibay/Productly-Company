@@ -140,6 +140,42 @@
   padding: 4rem;
 }
 
+@media only screen and (max-width: 425px) {
+  .bgConnection {
+    background: #fff;
+    padding: 0;
+    margin-bottom: 100px !important;
+  }
+
+  .mt-avators .col:nth-child(4) {
+    margin-top: 40px !important;
+  }
+
+  .mt-avator .col:nth-child(1) {
+    margin: 40px 0 40px 0;
+  }
+
+  .mt-avator .col:nth-child(2) {
+    margin: 25px 0 40px 0 !important;
+  }
+
+  .footer {
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important ;
+    align-self: center;
+  }
+
+  .footer h5 {
+    text-align: start;
+  }
+
+  .text-align-sm h5 {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+}
+
 .connectionHero imgL:nth-child(1) {
   width: 98px;
   height: 98px;
@@ -231,12 +267,12 @@
   margin-bottom: 12px;
 }
 
-hr {
-  margin-bottom: 120px !important;
+.footer {
+  padding-bottom: 0;
 }
 
-.footer {
-  padding-bottom: 95px;
+.marketingInfo hr {
+  margin-bottom: 120px !important;
 }
 
 .footer img {
@@ -287,4 +323,17 @@ hr {
   width: 171px;
   height: 39px;
   font-weight: 700;
+}
+
+.footers {
+  text-align: center;
+  margin-top: 0;
+}
+
+.footers h5 {
+  font-weight: 400;
+}
+
+.footers hr {
+  margin: 50px 0 40px 0;
 }
